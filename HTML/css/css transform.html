@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 100px;
+            width: 100px;
+            background-color: blueviolet;
+            border: 2px solid black;
+             /* transform: rotate(90deg);   */
+            position: absolute;
+            top: 100px;
+            left: 100px ;
+            /* transform: scale(1,2); */
+            /* transform: scale(2); */
+            /* transform: scaleX(2); */
+            /* (yo chai comment out just tala div:hover ma transform scale rakhna ko lagi matra garya ho) */
+          transition: all 2s ease-in;
+          /* transform: translateX(-100px); */
+        }
+        div:hover{
+            background-color: burlywood;
+            color: brown;
+            font-size: 20px;
+            /* transform: scaleX(2);  */
+            /* (transform: scale ra transform :translate  ya ne use garna milxa both div ma ne ya pani) */
+            /* transform: translateY(100px); */
+            transform: translate(100px,100px); 
+            /* transform: skew(30deg); */
+           transform: skew(90deg);
+       
+        }
+        div:active {
+            background-color: cadetblue;
+        }
+    </style>
+</head>
+<body>
+    <div>priya</div>
+</body>
+</html>
+
+<!-- CONCLUSION: ya chai css transform ko sabbai types haru xa 
+              *rotate
+              *scale
+              *translate
+              *skew -->

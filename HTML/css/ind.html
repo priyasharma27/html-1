@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>my file</title>
+  </head>
+  <style>
+    /* div{
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+    padding: 30px;
+    display: inline-block;
+   } */
+    /* div{
+       width: 100px;
+       height: 100px;
+       margin: 30px;
+       padding: 30px;
+       background-color: rgba(255, 0, 0, 0.5);
+    } */
+
+    * {
+      padding: 0;
+      margin: 0;
+      color: white;
+    }
+    #navbar {
+      background-color: black;
+    }
+    button {
+      background-color: orange;
+    }
+    a {
+      margin-right: 100px;
+    }
+
+    .contentbox {
+      height: 100px;
+      width: 100px;
+      border: 2px solid black;
+      background-color: rgba(0, 0, 255, 0.5);
+      display: inline-block;
+    }
+    #content {
+      height: 500px;
+      width: 500px;
+    }
+    footer {
+      background-color: black;
+      color: white;
+    }
+  </style>
+  <body>
+    <!-- <h1 style="color: darkblue;">priya</h1>
+    <div style="background-color: blue;">box1</div>
+    <div style="background-color: red;">box2</div>
+    <div style="background-color: yellow;">box3</div> -->
+    //create a webpage layout with header , a footer and a content area
+    containing 3 divs. set the height and width of divs to 100px. (add the
+    previous navbar in the header). add boarders to all the divs. add a
+    different background to each div with an opacity of 0.5. give the content
+    area of appropriate height.
+    <header>
+      <div id="navbar">
+        <a href="logo" style="color: orange">amazon.in</a>
+        <a>account</a>
+        <a>my cart</a>
+        <a>contact us</a>
+        <input placeholder="search Amazon.in" />
+        <button>search</button>
+      </div>
+    </header>
+    <div id="content">
+      <div class="contentbox">name</div>
+      <div class="contentbox">address</div>
+      <div class="contentbox">age</div>
+    </div>
+
+    <footer>copyright of google</footer>
+  </body>
+</html>
